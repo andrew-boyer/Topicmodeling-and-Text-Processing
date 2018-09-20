@@ -22,12 +22,14 @@ Example output, with n = 3, T = 2:
 ### Prerequisites
 
 Please ensure that the "topicmodels" package is installed. All other packages should be automatically installed with RStudio and calling them with the library command in the function will be sufficient.
-
-Also, please upload the csv file you'd like to analyze to your session of R.
 ```
 install.packages("topicmodels")
 library(topicmodels)
 ```
+Also, please upload the csv file you'd like to analyze to your session of R.
+
+
+
 ### Libraries
 Libraries used include:
   topicmodels
@@ -52,5 +54,19 @@ Contivation(3, 2)
 
 
 ## Results
+
+All testing was done on the following...
+
+- Type: t2.medium vCPU/RAM 2/4
+- Local Disk size: 30GB
+- Application: RStudio
+
+The number of topics one wants to process, and the minimum word frequency chosen during the document term matrix processing has a fairly large effect on the processing time.
+
+ 
+
+With 3 relevant words and 2 topics chosen by the user the full csv file found on datalake takes **25.32 seconds** to process.
+
+With 3 relevant words and 3 topics the full csv file takes **2 minutes 55 seconds** to process.
 
 
