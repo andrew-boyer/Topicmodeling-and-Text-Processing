@@ -28,7 +28,7 @@ library(topicmodels)
 ```
 Also, please upload the csv file you'd like to analyze to your session of R.
 
-
+![image](https://user-images.githubusercontent.com/43450019/45838167-14f30580-bcdf-11e8-82fc-af9232a91560.png)
 
 ### Libraries
 Libraries used include:
