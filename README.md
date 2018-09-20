@@ -32,12 +32,12 @@ Also, please upload the csv file you'd like to analyze to your session of R.
 
 ### Libraries
 Libraries used include:
-  topicmodels
-  dplyr
-  tidytext
-  tm
-  tidyr
-  data.table
+  - topicmodels
+  - dplyr
+  - tidytext
+  - tm
+  - tidyr
+  - data.table
   
 ### Input File
 
