@@ -12,12 +12,12 @@
  3. Weight belonging to the word in the topic 
 
 Example output, with n = 3, T = 2: 
- Topic1   dog     0.9 
- Topic1   bone    0.5 
- Topic1   chase   0.3 
- Topic2   cat     0.82 
- Topic2   meow    0,4 
- Topic2   purr    0,2
+ - Topic1   dog     0.9 
+ - Topic1   bone    0.5 
+ - Topic1   chase   0.3 
+ - Topic2   cat     0.82 
+ - Topic2   meow    0,4 
+ - Topic2   purr    0,2
 
 ### Prerequisites
 
